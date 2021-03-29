@@ -1,0 +1,51 @@
+body { 
+background: #efefef;
+}
+
+#table {
+	margin-top: 150px;
+}
+
+.t1, .t2, .t3, .t4, .t5, .t6, .t7, .t8, .t9, .t9complete {
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  background: url("statue.jpg"); 
+  cursor: pointer;
+}
+
+.t1 {background-position: left top;}
+.t2 {background-position: center top;}
+.t3 {background-position: right top;}
+.t4 {background-position: left center;}
+.t5 {background-position: center center;}
+.t6 {background-position: right center;}
+.t7 {background-position: left bottom;}
+.t8 {background-position: center bottom;}
+.t9 {background: white; cursor: default;}
+.t9complete{background-position: right bottom;}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centerText{
+	text-align: center;
+}
+
+button{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
