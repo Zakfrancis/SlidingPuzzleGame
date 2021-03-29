@@ -92,7 +92,7 @@ function checkComplete(){
 		//timeout to allow html elements to update before popup
 		setTimeout(function() {
 			if(window.confirm("Congratulations, You solved it! Click okay to shuffle and try again!")){
-				document.getElementById("3_3").className = "t9"; //change back to whitespace before shuffle
+				document.getElementById("3_3").className = "t9";
 				shuffle();
 			}
 		},10)
