@@ -12,6 +12,9 @@ function swap(c1,c2,fromShuffle) {
 
 //For each td element, swap it with a random other td element
 function shuffle(){
+	if(document.getElementById("3_3").className == "t9complete"){
+		document.getElementById("3_3").className = "t9";
+	}
 	for (var row=1;row<=3;row++) {
 		for (var column=1;column<=3;column++) {
 			var row2=Math.floor(Math.random()*3 + 1);
